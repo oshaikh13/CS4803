@@ -1,0 +1,11 @@
+Collecting pytorchcv
+  Downloading https://files.pythonhosted.org/packages/c9/43/c902b8e96155bfbd376d109d67380756ca6d85b9d772273ad9d0d679eb7c/pytorchcv-0.0.50-py2.py3-none-any.whl (390kB)
+Requirement already satisfied: torch in c:\programdata\anaconda3\lib\site-packages (1.2.0)
+Requirement already satisfied: numpy in c:\programdata\anaconda3\lib\site-packages (from pytorchcv) (1.15.1)
+Requirement already satisfied: requests in c:\programdata\anaconda3\lib\site-packages (from pytorchcv) (2.19.1)
+Requirement already satisfied: idna<2.8,>=2.5 in c:\programdata\anaconda3\lib\site-packages (from requests->pytorchcv) (2.7)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\programdata\anaconda3\lib\site-packages (from requests->pytorchcv) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\programdata\anaconda3\lib\site-packages (from requests->pytorchcv) (2019.6.16)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in c:\programdata\anaconda3\lib\site-packages (from requests->pytorchcv) (1.23)
+Installing collected packages: pytorchcv
+Successfully installed pytorchcv-0.0.50
