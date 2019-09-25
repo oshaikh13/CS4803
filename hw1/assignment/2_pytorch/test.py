@@ -12,6 +12,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import transforms
 from torch.autograd import Variable
+from pytorchcv.model_provider import get_model as ptcv_get_model
 from challenge_data import ChallengeData
 
 # Training settings
